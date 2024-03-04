@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css" type="text/css">
+    <title>Login Sistema TendTudo</title>
+</head>
+<body>
+  <div class="loginBackground"></div>
+      <div class="loginBox">
+				<h1 class="loginTitle">Login Tend Tudo</h1>
+        <form id="loginAdmin">
+					<input type="text" placeholder="Insira o seu CPF..." maxlength="11" oninput="formatarCPF()" id="cpfValidateInput" required>
+
+					<select class="functionAdmin" id="roleValidateInput" required>
+						<option selected disabled>Informe o seu cargo...</option>
+						<option value="tree1">Gerente</option>
+						<option value="tree2">Fornecedor</option>
+						<option value="tree3">Funcionário Administração</option>
+						<option value="tree4">Funcionário Caixa</option>
+					</select>
+
+					<input type="text" class="acessCode" id="codeValidateInput" placeholder="Informe seu código de acesso..." required>
+					<button type="button" id="sentLogin" onclick="sendForm()">Login</button>
+				</form>
+      </div>
+		<script type="text/javascript" src="js/loginAdminScript.js"></script>
+</body>
+</html>
