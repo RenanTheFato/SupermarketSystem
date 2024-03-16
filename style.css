@@ -269,7 +269,7 @@ body{
     }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1090px){
     .bannerPrincipal{
         height: 25rem;
     }
