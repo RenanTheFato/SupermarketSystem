@@ -286,6 +286,17 @@ body{
         font-size: 15px;
         top: 80%;
     }
+    .marketLogo{
+        top: -110%;
+        left: -4%;
+        height: 300px;
+    }
+    .searchBar{
+        width: 25rem;
+    }
+    .searchBtn{
+        left: 88%;
+    }
 }
 
 @media screen and (max-width:840px){
