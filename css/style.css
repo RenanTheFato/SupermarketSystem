@@ -164,6 +164,7 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     border-bottom: 1px solid black;
+    position: relative;
 }
 
 .productsSection img{
@@ -230,6 +231,15 @@ body{
     transform: translateY(-10px);
 }
 
+.linkProducts{
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}
+
 @media screen and (min-width:1750px){
     .bannerPrincipal{
         position: relative;
@@ -241,17 +251,60 @@ body{
         background-repeat: no-repeat;
         border-bottom: 1px solid black;
     }
+    .product img{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        user-select: none;
+    }
 }
 
-@media screen and (max-width:910px){
+@media screen and (max-width:1050px){
+    .marketLogo{
+        top: -110%;
+        left: -4%;
+        height: 300px;
+    }
+    .searchBar{
+        width: 25rem;
+    }
+    .searchBtn{
+        left: 88%;
+    }
+}
+
+@media screen and (max-width:840px){
+    .marketLogo{
+        top: -100%;
+        left: -7%;
+        height: 270px;
+    }
+    .searchBar{
+        width: 20rem;
+    }
+    .searchBtn{
+        left: 86%;
+    }
+}
+
+@media screen and (max-width:1000px){
     .bannerPrincipal{
-        position: relative;
-        width: 100%;
         height: 25rem;
-        background-image: url("/img/bannerBackground.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-bottom: 1px solid black;
+    }
+    .product{
+        height: 20rem;
+    }
+    .priceOff{
+        font-size: 10px;
+    }
+    .priceAtual{
+        font-size: 17px;
+    }
+    .productName{
+        font-size: 15px;
+        top: 80%;
     }
 }
