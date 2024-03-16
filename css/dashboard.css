@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboardTab{
+    position: relative;
+    width: 100%;
+    height: 8rem;
+    color: white;
+}
+
+#dashboardRole{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dashboardCPF{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    left: 40%;
+    top: 55%;
+}
+
+#dashboardRole2{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    left: 53%;
+    top: 55%;
+}
+
+#dashboardCode{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    left: 46%;
+    top: 80%;
+}
+
+.mainPanel{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #c2c2c2;
+
+}
+
+@media screen and (max-width: 1667px){
+    #dashboardCPF{
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        left: 37%;
+        top: 55%;
+    }
+    #dashboardRole2{
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        left: 55%;
+        top: 55%;
+    }
+    #dashboardCode{
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        left: 44%;
+        top: 80%;
+    }
+}
