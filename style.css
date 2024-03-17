@@ -143,7 +143,7 @@ body{
 .highlightsProducts{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: transparent;
 }
 
@@ -195,6 +195,11 @@ body{
     user-select: none;
 }
 
+.imgOverflow0 img{
+    width: auto;
+    height: 50%;
+}
+
 .productPrice{
     font-family: "Ubuntu", sans-serif;
     user-select: none;
@@ -223,8 +228,9 @@ body{
     font-size: 20px;
     position: absolute;
     left: 50%;
-    top: 85%;
+    bottom: 2rem;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .product:hover{
@@ -240,6 +246,15 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.section2{
+    background-image: linear-gradient(to top, #e94141, #e78427, #dad621);
+}
+
+.section3{
+    background-image: linear-gradient(to bottom, #207e3f, #c1c1c100);
+}
+
+
 @media screen and (min-width:1750px){
     .bannerPrincipal{
         height: 50rem;
@@ -252,6 +267,11 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         user-select: none;
+        max-width: 100%;
+    }
+    .imgOverflow0 img{
+        width: auto;
+        height: 50%;
     }
 }
 
@@ -284,7 +304,10 @@ body{
     }
     .productName{
         font-size: 15px;
-        top: 80%;
+        bottom: 2.5rem;
+    }
+    .textOverFlow0{
+        bottom: 1rem;
     }
     .marketLogo{
         top: -110%;
@@ -334,7 +357,7 @@ body{
     }
 }
 
-@media screen and (max-width:440px){
+@media screen and (max-width:520px){
     .highlightsTitle{
         font-size: 20px;
     }
@@ -353,8 +376,8 @@ body{
         right: 2%;
     }
     .productName{
-        font-size: 10px;
-        top: 80%;
+        font-size: 8px;
+        bottom: 1.5rem;
     }
     .marketLogo{
         display: none;
@@ -369,7 +392,7 @@ body{
     .imgBtnConfig img{
         height: 25px;
         right: 50%;
-        top: -20%;
+        top: 5px;
     }
     .searchBar{
         width: 15rem;
