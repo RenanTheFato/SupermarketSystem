@@ -333,7 +333,11 @@ body{
         top: 80%;
     }
 }
+
 @media screen and (max-width:440px){
+    .highlightsTitle{
+        font-size: 20px;
+    }
     .bannerPrincipal{
         height: 15rem;
     }
@@ -353,15 +357,37 @@ body{
         top: 80%;
     }
     .marketLogo{
-        top: -80%;
-        left: -4%;
-        height: 200px;
+        display: none;
+    }
+    .cartBtn{
+        top: 2rem;
+        right: 25%;
+    }
+    .imgBtnCart img{
+        height: 30px;
+    }
+    .imgBtnConfig img{
+        height: 25px;
+        right: 50%;
+        top: -20%;
     }
     .searchBar{
         width: 15rem;
+        height: 1.5rem;
+        left: 35%;
+        top: 45%;
     }
     .searchBtn{
-        left: 80%;
+        left: 85%;
+        width: 2rem;
+        height: 1.9rem;
+    }
+    .searchBtn img{
+        width: auto;
+        height: 18px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
-
