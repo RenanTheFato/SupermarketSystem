@@ -333,4 +333,35 @@ body{
         top: 80%;
     }
 }
+@media screen and (max-width:440px){
+    .bannerPrincipal{
+        height: 15rem;
+    }
+    .product{
+        height: 10rem;
+    }
+    .priceOff{
+        font-size: 5px;
+        left: 2%;
+    }
+    .priceAtual{
+        font-size: 7px;
+        right: 2%;
+    }
+    .productName{
+        font-size: 10px;
+        top: 80%;
+    }
+    .marketLogo{
+        top: -80%;
+        left: -4%;
+        height: 200px;
+    }
+    .searchBar{
+        width: 15rem;
+    }
+    .searchBtn{
+        left: 80%;
+    }
+}
 
