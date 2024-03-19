@@ -302,6 +302,11 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.linkProduct{
+    text-decoration: none;
+    color: unset;
+}
+
 
 @media screen and (min-width:1750px){
     .bannerPrincipal{
