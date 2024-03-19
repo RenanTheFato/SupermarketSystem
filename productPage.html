@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="css/page.css">
+    <title>Produto</title>
+</head>
+<body>
+	<a href="chatSupport.html"><button id="supportButton"><img src="img/supportIcon.svg"></button></a>
+  <!-- Header -->
+    <div class="topInfo">
+			<img src="img/logo2.png" class="marketLogo">
+      <form class="topSearch" method="get">
+        <div class="searchBar">
+            <input type="text" name="search" id="search" placeholder="Pesquisar Produtos...">
+          		<button type="submit" class="searchBtn">
+            		<div class="imgBtnTop"><img src="img/search-icon.png"></div>
+          		</button>
+        </div>
+      </form>
+			<button type="button" class="verticalConfigBtn">
+				<div class="imgBtnConfig"><img src="img/config.png"></div>
+			</button>
+			<button type="button" class="cartBtn">
+				<div class="imgBtnCart"><img src="img/cart-icon.png"></div>
+			</button>
+    </div>
+
+		<div class="productContainer">
+			<img src="img/poloProduct.png">
+			<p class="productNameBox">Camisa Polo Lacoste Branca e Azul Moderna</p>
+			<p class="productDescripition">Camisa polo branca com detalhes em azul moderna, tecido de algodão 100% orgânico, 
+			confortável para o dia a dia. <br><br>
+			Medidas: <br><br>
+			P: Altura = 69cm - Largura = 50cm.<br>
+			M: Altura = 71cm - Largura = 53cm.<br>
+			G: Altura = 73cm - Largura = 56cm.<br>
+			GG: Altura = 76cm - Largura = 60cm.<br>
+		</p>
+			<div class="productPayContainer">
+					<s class="priceOffPay">R$ 139.99</s>
+					<p class="priceAtualPay">R$ 90.99</p>
+					<p class="quantityPay">Informe a quantidade: <input type="number" min="0" max="10" id="quantityNumber" ></p>
+					<p class="guaranteePay">6 Meses de garantia.</p>
+					<p class="devolutionPay">Reembolso gratuito a partir de 7 dias após a compra.</p>
+					<button class="addToCart">Adicionar ao carrinho</button>
+			</div>
+		</div>
+</body>
+</html>

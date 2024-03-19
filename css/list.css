@@ -45,6 +45,11 @@
     font-size: 20px;
 }
 
+.linkProduct{
+    color: unset;
+    text-decoration: none;
+}
+
 .first{
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -71,7 +76,10 @@
         font-size: 12px;
     }
     .productPriceContainer{
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .productDiscountContainer{
+        font-size: 9px;
     }
 }
 
@@ -86,8 +94,5 @@
     }
     .productNameContainer{
         font-size: 10px;
-    }
-    .productPriceContainer{
-        font-size: 8px;
     }
 }

@@ -1,0 +1,347 @@
+.productContainer{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 60rem;
+    height: 25rem;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.productContainer img{
+    max-width: 100%;
+    width: 300px;
+    object-fit: contain;
+    height: 300px;
+}
+
+.productPayContainer{
+    position: absolute;
+    right: 1%;
+    border-radius: 7px;
+    border: 1px solid #c1c1c1;
+    width: 15rem;
+    height: 95%;
+}
+
+.productNameBox{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 5rem;
+    left: 17rem;
+}
+
+.productDescripition{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 7.5rem;
+    left: 17rem;
+    text-align: justify;
+    width: 25rem;
+    height: auto;
+}
+
+.priceOffPay{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #3a3a3a;
+}
+
+.priceAtualPay{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 2rem;
+    left: 0.8rem;
+    font-weight: 500;
+}
+
+.quantityPay{
+    position: absolute;
+    top: 7rem;
+    left: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#quantityNumber{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #5fa6cb;
+    outline: none;
+}
+
+.guaranteePay{
+    position: absolute;
+    top: 11rem;
+    left: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.devolutionPay{
+    position: absolute;
+    top: 13rem;
+    left: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.addToCart{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.9rem;
+    width: 75%;
+    background-color: #5fa6cb;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width:1750px){
+    .productContainer{
+        width: 70rem;
+        height: 35rem;
+    }
+    .productContainer img{
+        width: 400px;
+        height: 400px;
+    }
+    .productNameBox{
+        font-size: 22px;
+        top: 7rem;
+        left: 22rem;
+    }
+    
+    .productDescripition{
+        font-size: 17px;
+        top: 9rem;
+        left: 22rem;
+    }
+}
+
+@media screen and (max-width:950px){
+    .productContainer{
+        width: 50rem;
+    }
+    .productContainer img{
+        width: 225px;
+        height: 225px;
+    }
+    .productNameBox{
+        font-size: 15px;
+        top: 5rem;
+        left: 13rem;
+    }
+    .productDescripition{
+        font-size: 12px;
+        top: 7rem;
+        left: 13rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:830px){
+    .productContainer{
+        width: 40rem;
+        height: 20rem;
+    }
+    .productContainer img{
+        width: 185px;
+        height: 185px;
+    }
+    .productPayContainer{
+        right: 1%;
+        width: 12rem;
+        height: 85%;
+    }
+    .productNameBox{
+        font-size: 12px;
+        top: 5rem;
+        left: 10rem;
+    }
+    .productDescripition{
+        font-size: 12px;
+        top: 7rem;
+        left: 10rem;
+        width: 15rem;
+    }
+    .priceOffPay{
+        font-size: 12px;
+        top: 1rem;
+        left: 1rem;
+    }
+    
+    .priceAtualPay{
+        font-size: 17px;
+        top: 2rem;
+        left: 0.8rem;
+    }
+    
+    .quantityPay{
+        top: 5rem;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    .guaranteePay{
+        top: 7rem;
+        left: 0.5rem;
+        font-size: 10px;
+    }
+    
+    .devolutionPay{
+        top: 8.5rem;
+        left: 0.5rem;
+        font-size: 10px;
+    }
+    
+    .addToCart{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        width: 10rem;
+        padding: 7px 7px;
+    }
+}
+
+@media screen and (max-width:645px){
+    .productContainer{
+        width: 30rem;
+        height: 15rem;
+    }
+    .productContainer img{
+        width: 125px;
+        height: 125px;
+    }
+    .productPayContainer{
+        right: 1%;
+        width: 10rem;
+        height: 85%;
+    }
+    .productNameBox{
+        font-size: 9px;
+        top: 3rem;
+        left: 7rem;
+    }
+    .productDescripition{
+        font-size: 9px;
+        top: 4rem;
+        left: 7rem;
+        width: 10rem;
+    }
+    .priceOffPay{
+        font-size: 9px;
+        top: 0.5rem;
+        left: 1rem;
+    } 
+    .priceAtualPay{
+        font-size: 13px;
+        top: 1.5rem;
+        left: 0.9rem;
+    }
+    .quantityPay{
+        top: 3rem;
+        left: 0.5rem;
+        font-size: 9px;
+    }
+    .guaranteePay{
+        top: 5rem;
+        left: 0.5rem;
+        font-size: 8px;
+    }
+    
+    .devolutionPay{
+        top: 6.5rem;
+        left: 0.5rem;
+        font-size: 8px;
+    }
+    
+    .addToCart{
+        position: absolute;
+        bottom: 1rem;
+        left: 1.5rem;
+        width: 7rem;
+        padding: 7px 7px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .productContainer{
+        width: 25rem;
+        height: 15rem;
+    }
+    .productContainer img{
+        width: 125px;
+        height: 125px;
+    }
+    .productPayContainer{
+        right: 1%;
+        width: 7rem;
+        height: 85%;
+    }
+    .productNameBox{
+        font-size: 7px;
+        top: 4rem;
+        left: 7rem;
+    }
+    .productDescripition{
+        font-size: 7px;
+        top: 5rem;
+        left: 7rem;
+        width: 10rem;
+    }
+    .priceOffPay{
+        font-size: 7px;
+        top: 0.5rem;
+        left: 1rem;
+    } 
+    .priceAtualPay{
+        font-size: 9px;
+        top: 1.2rem;
+        left: 0.9rem;
+    }
+    .quantityPay{
+        top: 2.5rem;
+        left: 0.8rem;
+        font-size: 7px;
+    }
+    .guaranteePay{
+        top: 5rem;
+        left: 0.5rem;
+        font-size: 7px;
+    }
+    
+    .devolutionPay{
+        top: 6.5rem;
+        left: 0.5rem;
+        font-size: 7px;
+    }
+    
+    .addToCart{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        width: 5rem;
+        padding: 7px 7px;
+        font-size: 10px;
+    }
+}
